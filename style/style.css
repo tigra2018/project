@@ -90,7 +90,7 @@ h1{
     align-self: auto;
 	list-style-type: none;
 	margin-top: 35px;
-    padding: 25px;
+    padding: 15px;
     border-top: 1px solid #e6e6e6;
 }
 
@@ -132,4 +132,12 @@ h2{
 	font-weight: 400;
 	line-height: 28px;
 	letter-spacing: 0.09px;
+}
+
+.start{
+	padding: 15px 15px 15px 0px;
+}
+
+.finish{
+	padding: 15px 0px 15px 15px;
 }
