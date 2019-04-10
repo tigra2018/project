@@ -229,4 +229,11 @@ h3{
 	line-height: 24px;
 	text-transform: uppercase;
 	letter-spacing: 0.07px;
+	transition: .5s;
+}
+
+.more-details:hover{
+	color: #fff;
+	background: #48974c;
+	transition: .5s;
 }
