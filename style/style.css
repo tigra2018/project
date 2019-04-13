@@ -152,7 +152,7 @@ h2{
 .container{
 	padding: 5px;
 	display: inline-block;
-	width: 48%;
+	float: left;
 }
 
 .big-block{
@@ -198,7 +198,7 @@ h3{
 	margin: 10px 0 7px 0;
 }
 
-.big-block>p{
+.brief-information{
 	color: #737373;
 	font-family: "PT Sans";
 	font-size: 16px;
@@ -210,10 +210,6 @@ h3{
 
 .container-mid{
 	max-width: 1005px;
-}
-
-.left-container{
-	margin-left: 65px;
 }
 
 .more-details{
@@ -236,4 +232,85 @@ h3{
 	color: #fff;
 	background: #48974c;
 	transition: .5s;
+}
+
+.left-container{
+	width: 48%;
+}
+
+.right-container{
+	width: 48%;
+}
+
+.mini-cube{
+	width: 38%;
+	display: inline-block;
+	padding: 25px;
+    background: #fff;
+}
+
+.more-details-small{
+	width: 66px;
+	height: 10px;
+	color: #48974c;
+	font-family: "PT Sans";
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.06px;
+	background: #fff;
+	border: none;
+	padding: 5px;
+	position: relative;
+    left: 20px;
+}
+
+.more-details-small::before{
+	content: "";
+	position: absolute;
+	background-image: url(../images/2-layers.png);
+	width: 16px;
+	height: 16px;
+	top: 9px;
+	left: -21px;
+}
+
+.building{
+	background-image: url(../images/building.png);
+	background-size: cover;
+	height: 560px;
+	background-position: center;
+	position: relative;
+}
+
+.clear{
+	clear: both;
+}
+
+.building-label{
+	margin: 22px 0 25px 0;
+    width: 157px;
+    height: 56px;
+    background: #fff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.07px;
+    color: #262626;
+    padding: 18px;
+    position: relative;
+    left: 4px;
+}
+
+#button-building{
+	background: #48974c;
+	color: #fff;
+}
+
+.building-position{
+	position: absolute;
+	bottom: 70px;
+	left: 40px;
 }
